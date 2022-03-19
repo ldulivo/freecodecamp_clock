@@ -44,15 +44,24 @@
       border-right: 1px #ffffff solid;
       top: -1px;
       left: -1px;
-
-      /* content: "";
-      position: absolute;
-      width: 70%;
-      height: 70%;
-      background: transparent;
-      border-radius: 15px;
-      border-top: 1px #ffffff solid;
-      border-left: 1px #ffffff solid; */
     }
+  }
+}
+
+button {
+  width: 36px;
+  height: 36px;
+  border-top: 2px #8f8f8f solid;
+  border-left: 2px #8f8f8f solid;
+  border-bottom: 1px #fff solid;
+  border-right: 1px #fff solid;
+  border-radius: 50%;
+  background: #000000;
+  margin: 4px;
+  box-shadow: 3px 3px 5px -3px #fff;
+  padding: 4px;
+  &:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 5px -3px #fff;
   }
 }
